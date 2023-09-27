@@ -28,7 +28,7 @@ spec:
     spec:
       # nodeName: cpu-04
       containers:
-        - image: mongo
+        - image: mongo:4.4.6
           imagePullPolicy: IfNotPresent
           name: hotel-reserv-rate-mongo
           ports:

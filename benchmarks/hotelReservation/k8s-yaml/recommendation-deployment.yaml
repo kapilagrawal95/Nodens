@@ -29,8 +29,8 @@ spec:
       containers:
         - command:
             - recommendation
-          image: shijiuchen/hotel_reserv_single_node:latest
-          imagePullPolicy: IfNotPresent
+          image: igorrudyk1/hotelreservation:latest
+          #imagePullPolicy: IfNotPresent
           name: hotel-reserv-recommendation
           ports:
             - containerPort: 8085

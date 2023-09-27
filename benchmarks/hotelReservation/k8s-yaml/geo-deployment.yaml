@@ -29,8 +29,8 @@ spec:
       containers:
         - command:
             - geo
-          image: shijiuchen/hotel_reserv_single_node:latest
-          imagePullPolicy: IfNotPresent
+          image: igorrudyk1/hotelreservation:latest
+          #imagePullPolicy: IfNotPresent
           name: hotel-reserv-geo
           ports:
             - containerPort: 8083
