@@ -26,7 +26,7 @@ spec:
       labels:
         io.kompose.service: mongodb-recommendation
     spec:
-      nodeName: cpu-07
+      # nodeName: cpu-07
       containers:
         - image: mongo
           imagePullPolicy: IfNotPresent

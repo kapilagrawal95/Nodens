@@ -25,7 +25,7 @@ spec:
       labels:
         io.kompose.service: entering-ms
     spec:
-      nodeName: cpu-03
+      # nodeName: cpu-03
       containers:
         - command:
             - enteringMS

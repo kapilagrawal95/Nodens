@@ -25,7 +25,7 @@ spec:
       labels:
         io.kompose.service: memcached-reservation
     spec:
-      nodeName: cpu-08
+      # nodeName: cpu-08
       containers:
         - env:
             - name: MEMCACHED_CACHE_SIZE

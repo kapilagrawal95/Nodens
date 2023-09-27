@@ -25,7 +25,7 @@ spec:
       labels:
         io.kompose.service: frontend-reserve
     spec:
-      nodeName: cpu-08
+      # nodeName: cpu-08
       containers:
         - command:
             - frontendReserve

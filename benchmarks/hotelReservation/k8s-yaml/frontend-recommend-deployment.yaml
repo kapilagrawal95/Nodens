@@ -25,7 +25,7 @@ spec:
       labels:
         io.kompose.service: frontend-recommend
     spec:
-      nodeName: cpu-07
+      # nodeName: cpu-07
       containers:
         - command:
             - frontendRecommend
